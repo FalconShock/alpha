@@ -3,5 +3,7 @@ name: default
 
 steps:
   - name: build
+    image: python
     commands: 
-    - echo "[+] Build Successful."
+    - python main.py
+
